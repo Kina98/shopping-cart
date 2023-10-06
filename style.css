@@ -1,3 +1,44 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
 
+.buttons button:hover {
+    background-color: black;
+    color: red;
+}
 
+ .etoiles {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 50%;
+ }
+.star {
+    font-size: 1.5rem;
+    color: #09FB44;
+    background-color: unset;
+    border: none;
+}
+.star:hover {
+    cursor: pointer;
+}
 
+.card-img-top {
+    height: 25rem !important;
+    position: relative;
+}
+
+.span2 {
+    display: flex;
+    justify-content: end;
+}
+
+h5 {
+    display: flex;
+    justify-content: space-between;
+}
