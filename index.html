@@ -8,11 +8,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Brygada+1918:ital,wght@1,500&family=Libre+Baskerville:ital@1&family=Montserrat&family=Open+Sans:ital,wght@1,500&family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="style.css">
     <title>QUANDHY</title>
 </head>
 <body>
-    <header class="text-center">
+  <!-- entete et navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img class="logo" src="https://img.freepik.com/vecteurs-premium/concept-logo-gateau-boulangerie_23-2148476346.jpg" alt=""></a>
+      <h3>Home About Store</h3>
+      <form class="d-flex">
+        <p class="me-5"><span><i class="fa-solid fa-phone"></i></span> <span>+227 969 696 96</span></p>
+        <button type="button" class="btn btn-outline-dark"><span><i class="fa-solid fa-satellite-dish"></i></span><span>0 Items - $0.00</span></button>
+      </form>
+    </div>
+    <div class="container-fluid">
+      <img class="w-100 grande-img" style="height: 100vh !important;" src="img/grande-img.jpeg" alt="">
+      <div class="explore">
+        <p><span class="text-secondary fs-3">Welcom To</span> <span class="quandy">QUANDHY</span></p>
+        <button type="button" class="btn">EXPLORE</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- les buttons pour parcourir -->
+    <div class="text-center">
         <h1>Our <span class="fw-bold text-danger">Store</span></h1>
         <div class="buttons d-flex justify-content-evenly">
             <button type="button" class="btn btn-light border-dark">ALL</button>
@@ -29,10 +50,10 @@
             </button>
             <input type="text" class="border w-50" placeholder="item...." id="search">
           </div>
-    </header>
+    </div>
     <!-- le corps, le container et les cartes -->
-    <div class="container mt-5">
-        <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+    <div class="container-fluid mt-5">
+        <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
             <!-- colonne...CAKES....colonnne -->
             <div class="col">
                 <div class="card">
@@ -230,5 +251,6 @@
 
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5127414381.js" crossorigin="anonymous"></script>
 </body>
 </html>
