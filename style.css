@@ -64,6 +64,23 @@ body {
 .card-img-top {
     height: 25rem !important;
     position: relative;
+    overflow: hidden;
+    
+}
+
+.bag-btn {
+    position: absolute;
+    top: 77.8%;
+    right: 0;
+    background-color: #FCE8A0;
+    border: none;
+    border-top-left-radius: 15px;
+    padding: 0.5rem 0.75rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+
 }
 
 .span2 {
