@@ -1,0 +1,78 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Cake Item",
+            "price": 5,
+            "image": "./img/cake1.webp"
+        },
+        {
+            "id": 2,
+            "title": "Cake Item",
+            "price": 5,
+            "image": "./img/cake2.webp"
+        },
+        {
+            "id": 3,
+            "title": "Cake Item",
+            "price": 5,
+            "image": "./img/cake3.webp"
+        },
+        {
+            "id": 4,
+            "title": "Cupcake Item",
+            "price": 15,
+            "image": "./img/cupcake1.jpeg"
+        },
+        {
+            "id": 5,
+            "title": "Cupcake Item",
+            "price": 10,
+            "image": "./img/cupcake2.jpeg"
+
+        },
+        {
+            "id": 6,
+            "title": "Cupcake Item",
+            "price": 10,
+            "image": "./img/cupcake3.jpeg"
+
+        },
+        {
+            "id": 7,
+            "title": "Sweet Item",
+            "price": 10,
+            "image": "./img/doughnut1.jpeg"
+        },
+        {
+            "id": 8,
+            "title": "Sweet Item",
+            "price": 15,
+            "image": "./img/doughnut2.jpeg"
+        },
+        {
+            "id": 9,
+            "title": "Sweet Item",
+            "price": 15,
+            "image": "./img/doughnut3.jpeg"
+        },
+        {
+            "id": 10,
+            "title": "Doughnut Item",
+            "price": 8,
+            "image": "./img/sweet1.webp"
+        },
+        {
+            "id": 11,
+            "title": "Doughnut Item",
+            "price": 12,
+            "image": "./img/sweet2.webp"
+        },
+        {
+            "id": 12,
+            "title": "Doughnut Item",
+            "price": 8,
+            "image": "./img/sweet3.jpeg"
+        }
+    ]
+}
