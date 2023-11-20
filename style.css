@@ -49,21 +49,22 @@ body {
     color: red;
 }
 
- .etoiles {
+.stars {
     display: flex;
     justify-content: end;
     position: absolute;
     left: 50%;
  }
-.star {
-    font-size: 1.5rem;
-    color: #09FB44;
-    background-color: unset;
-    border: none;
-}
-.star:hover {
+.stars i {
+    color: #e6e6e6;
+    font-size: 30px;
     cursor: pointer;
+    transition: color 0.2s ease;
 }
+.stars i.active {
+    color: #ff9c1a;
+}
+
 
 .card-img-top {
     height: 25rem !important;
